@@ -12,7 +12,7 @@ export class PostComponent implements OnInit {
   post: Post;
 
   @Output()
-  bubbleUpPost = new EventEmitter();
+  bubbleUpPost = new EventEmitter<Post>();
 
   constructor() {
   }
